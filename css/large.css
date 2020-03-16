@@ -1,0 +1,43 @@
+@media only screen and (min-width: 64em){
+
+    /* Nav Section */
+
+    nav ul{
+        background-color: #459aee;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .navBar li:first-child {
+		display: none;
+	}
+
+    nav li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .home {
+        padding: .52rem;
+    }
+
+    nav li a img {
+        max-width: 40%;
+        padding: 0;
+    }
+
+    nav li a {
+        display: block;
+        padding: 1em;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #ecc96f;
+    }
+}

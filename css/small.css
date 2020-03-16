@@ -1,0 +1,273 @@
+body {
+    max-width: 1920px;
+    margin: auto;
+}
+
+/* NAV SECTION */
+nav ul{
+    background-color: #459aee;
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.navBar li:first-child {
+    display: block;
+}
+
+nav li {
+    display: none;
+    flex: 1 1 100%;
+}
+
+nav li a {
+    display: block;
+    padding: 1em;
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ECC96f;
+}
+
+.active {
+    background-color: #ECC96f;
+    color: #2a2a2a;
+    font-weight: bold;
+}
+
+.responsive li {
+	display: block;
+}
+
+/* HEADER SECTION */
+
+/* header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header div {
+    margin: 1rem 1rem 1rem 3%;
+    background-color: #FFF;
+    order: -1;
+} */
+
+header img {
+    max-height: 95vh;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    Left: 10%;
+}
+
+.overlay p, .overlay h1, .overlay em {
+    color: #FFF;
+}
+
+.overlay h1 {
+    font-size: 2rem;
+}
+
+.overlay em, p {
+    font-size: 1.4rem;
+}
+
+#mc_embed_signup {
+    width: 1080px;
+}
+
+#mc_embed_signup_scroll {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header input {
+    margin: .5rem 0;
+    padding: .6rem;
+    width: 85%;
+}
+
+header label {
+    color: #fff;
+}
+
+header .asterisk {
+    color: red;
+}
+
+header .mc-field-group {
+    order: -1;
+}
+
+header .submit {
+    order: -1;
+}
+
+.button {
+    background-color: #459aee;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    width: 60%;
+}
+
+/* MAIN SECTION */
+
+main {
+    margin: auto;
+}
+
+
+/* SERVICE SECTION */
+
+main .service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services {
+    background-color: #ECC96f;
+    margin: .5rem;
+    padding: 1.5rem;
+}
+
+button {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: none;
+    padding: .7rem;
+    font-size: 1.1rem;
+    width: 40%;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial h1 {
+    margin: 1rem 3%;
+    color: #459aee;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main .testi {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials {
+    margin: .5rem;
+    padding: 1.5rem;
+}
+
+.testimonials h3 {
+    margin-bottom: .1rem;
+}
+
+.testimonials img{
+    padding: 1rem;
+    max-width: 15%;
+}
+
+/* ABOUT SECTION */
+
+main .aboutme h1 {
+    margin: 1rem 3%;
+    color: #FFF;
+    font-size: 2.5rem;
+    text-align: center;
+    grid-column: 1/3;
+    order: -1;
+}
+
+main .aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #459aee;
+    color: #FFF;
+}
+
+.aboutme img {
+    max-width: 100%;
+    order: 3;
+}
+
+.story {
+    margin: 1rem;
+    text-align: left;
+    order: -1;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+    max-width: 960px;
+    margin: auto;
+}
+
+.messageForm img {
+    background-image: url("https://rfranu7.github.io/others/contactimg.jpg");
+}
+
+.TheForm {
+    position: relative;
+    top: 50%;
+    max-width: 1080px;
+}
+
+.contact form {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 10%);
+}
+
+.contact input, textarea{
+    margin: .5rem 0;
+    padding: .6rem;
+}
+
+.contact input[name="name"], input[name="phone"] {
+    width: 35.5%;
+}
+
+.contact input[name="email"], textarea {
+    display: block;
+    width: 95%;
+}
+
+.contact label:nth-child(3) {
+    margin-left: .5rem;
+}
+
+.contact label:nth-child(4) {
+    display: block;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #2a2a2a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem
+}
