@@ -83,16 +83,24 @@ input {
     border: none;
 }
 
-.button:hover {
+.button:hover, .btn:hover {
     background-color: #ecc96f;
     color: #2a2a2a;
     border: none;
 }
 
-button {
-    max-width: 75%; 
+.btn {
+    width: 75%;
     margin-bottom: 2rem; 
     transition: all 0.23s ease-in-out 0s;
+    background-color: #459aee;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+    border-radius:4px; 
+    cursor: pointer;
 }
 
 a {
@@ -124,8 +132,8 @@ a {
         margin: .25rem 0 1rem 0;
     }
 
-    button {
-        max-width: 50%; 
+    .btn {
+        width: 50%;
         margin-bottom: 2rem; 
         transition: all 0.23s ease-in-out 0s;
     }
