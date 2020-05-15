@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sign Up Now</title>
+        <meta name="author" content="Harry R. Singh">
+        <meta name="description" content="Harry R. Singh - Personal Coaching, Business Growth Consulting, Public Speaking">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/vid.css">
+
+    </head>
+    <body>
+        <main>
+            <video id="video" height="100%" autoplay muted>
+                <source src="assets/harry3.mp4" type="video/mp4" />
+            </video>
+        </main>
+
+        <script type="text/javascript">
+            var video = document.getElementById('video');
+            video.play();
+            video.addEventListener('ended',function(){
+                window.location = 'https://harryrsingh.com/opt-in';
+            });
+        </script>
+
+    </body>
+</html>
