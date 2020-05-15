@@ -255,6 +255,19 @@ a {
     background-position: bottom;
     background-repeat: no-repeat; }
 
+  .card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #ecc96f;
+    border-radius: 10px;
+    opacity: 0.8;
+    color: black; }
+
   main {
     border: 0;
     box-shadow: none; }
