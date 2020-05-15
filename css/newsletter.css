@@ -108,9 +108,23 @@ main {
     margin-top: 2rem;
     max-width: 90%; }
 
+  div.mc-field-group #form-headline {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
 .headline {
   font-size: 1.5rem;
-  padding: 0 1rem 0 1rem; }
+  padding: 0 1rem 0 1rem;
+}
+
+.headline-2 {
+  margin-bottom: 0;
+}
+
+.zero-top {
+  margin-top: 0;
+}
 
 .body-text {
   font-size: 1rem;
@@ -270,10 +284,26 @@ a {
 
   main {
     border: 0;
-    box-shadow: none; }
+    box-shadow: none;
+    text-align: left;
+  }
+
+  div.mc-field-group #form-headline {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .headline, .headline-2 {
+    margin-left: 1rem;
+    padding-left: 1.5rem;
+  }
 
   .show {
     display: none; }
+
+  .left {
+    text-align: left;
+  }
 
   form {
     margin: 3rem; } }
