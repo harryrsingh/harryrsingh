@@ -88,6 +88,10 @@
   text-align: left;
   padding: .5em 0; }
 
+  .mc-field-group {
+    margin-bottom: : .5rem;
+  }
+
 body {
   font-family: 'Montserrat', sans-serif;
   max-height: 100vh;
@@ -96,7 +100,10 @@ body {
   justify-content: left;
   margin: 1rem;
   color: white;
-  background-color: black; }
+  background-color: black;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+ }
 
 main {
   max-width: 960px;
@@ -108,9 +115,10 @@ main {
     margin-top: 2rem;
     max-width: 90%; }
 
-  div.mc-field-group #form-headline {
+  #mc_embed_signup_scroll #form-headline {
     text-align: center;
     margin-bottom: 2rem;
+    color: #ecc96f;
   }
 
 em {
