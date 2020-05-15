@@ -249,9 +249,10 @@ a {
     transition: all 0.23s ease-in-out 0s; } }
 @media only screen and (min-width: 64em) {
   body {
+    height: 96.5vh;
     background-image: url("../assets/harry-bg-large-black.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat; }
 
   main {
@@ -263,3 +264,9 @@ a {
 
   form {
     margin: 3rem; } }
+@media only screen and (min-width: 70em) {
+  body {
+    background-image: url("../assets/harry-bg-large-black.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; } }
