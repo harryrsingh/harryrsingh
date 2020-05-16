@@ -84,6 +84,14 @@
   display: none !important;
 }
 
+#mce-error-response.response {
+  background-color: #ecc96f !important;
+  color: #2a2a2a !important;
+  padding: 0.5rem !important;
+  margin: 0.5rem !important;
+  text-align: center !important;
+}
+
 #mc_embed_signup label.error {
   display: block;
   float: none;
