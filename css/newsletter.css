@@ -85,11 +85,14 @@
 }
 
 #mce-error-response.response {
-  background-color: #ecc96f !important;
-  color: #2a2a2a !important;
-  padding: 0.5rem !important;
-  margin: 0.5rem !important;
-  text-align: center !important;
+  color: #ecc96f !important;
+  padding: 1rem 0 !important;
+  margin: 2rem 1rem !important;
+  width: 100% !important;
+}
+
+#mce-error-response.response > a {
+  display: none !important;
 }
 
 #mc_embed_signup label.error {
