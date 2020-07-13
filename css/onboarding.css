@@ -54,9 +54,9 @@ strong {
     .main-body .links p, .main-body .links li, .main-body .links strong {
       font-size: 1.3rem; }
     .main-body .links li {
-      list-style: none;
       margin: .5rem 0; }
     .main-body .links input[type="checkbox"] {
+      display: none;
       margin-right: 1rem;
       transform: scale(1.5);
       -ms-transform: scale(1.5);
