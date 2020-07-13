@@ -1,0 +1,62 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  background-image: url("../assets/sky-light.png"); }
+
+.hero {
+  background-image: url("../assets/sky-black.png");
+  max-height: 35vh;
+  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center; }
+  .hero img {
+    height: 35vh; }
+  .hero .greetings {
+    text-align: center;
+    padding: 0 4rem; }
+    .hero .greetings h1 {
+      font-size: 3rem;
+      color: #fff;
+      font-weight: 900; }
+    .hero .greetings p {
+      font-size: 1.5rem;
+      color: #fff; }
+
+strong {
+  color: #459aee;
+  font-weight: 500; }
+
+.main-body {
+  height: 65vh;
+  text-align: left;
+  display: grid;
+  grid-template-columns: .75fr 1fr;
+  align-items: baseline; }
+  .main-body .image-container {
+    align-self: end; }
+  .main-body .links {
+    padding: 2rem; }
+    .main-body .links ul {
+      margin-bottom: 2rem; }
+    .main-body .links h2 {
+      font-size: 2rem; }
+    .main-body .links p, .main-body .links li, .main-body .links strong {
+      font-size: 1.5rem; }
+    .main-body .links li {
+      list-style: none;
+      margin: .5rem 0; }
+    .main-body .links input[type="checkbox"] {
+      margin-right: 1.5rem;
+      transform: scale(2);
+      -ms-transform: scale(2);
+      -webkit-transform: scale(2);
+      -o-transform: scale(2);
+      -moz-transform: scale(2); }
+    .main-body .links a {
+      color: black;
+      text-decoration: none;
+      transition: all .2s; }
+      .main-body .links a:hover {
+        border-bottom: 1px solid #459aee;
+        transition: all .5s; }

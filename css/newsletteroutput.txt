@@ -1,0 +1,452 @@
+
+
+csslint: There are 90 problems in D:\Work Stuff\Coaching - Workshops\clone\harryrsingh.com\css\newsletter.css.
+
+newsletter.css
+1: warning at line 1, col 1
+Don't use IDs in selectors.
+#mc_embed_signup {
+
+newsletter.css
+2: warning at line 1, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup {
+
+newsletter.css
+3: warning at line 7, col 1
+Don't use IDs in selectors.
+#mc_embed_signup form {
+
+newsletter.css
+4: warning at line 12, col 1
+Don't use IDs in selectors.
+#mc_embed_signup h2 {
+
+newsletter.css
+5: warning at line 12, col 18
+Heading (h2) should not be qualified.
+#mc_embed_signup h2 {
+
+newsletter.css
+6: warning at line 12, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup h2 {
+
+newsletter.css
+7: warning at line 18, col 1
+Don't use IDs in selectors.
+#mc_embed_signup input {
+
+newsletter.css
+8: warning at line 18, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup input {
+
+newsletter.css
+9: warning at line 20, col 3
+The property -moz-appearance is compatible with -webkit-appearance and should be included as well.
+  -webkit-appearance: none; }
+
+newsletter.css
+10: warning at line 22, col 1
+Don't use IDs in selectors.
+#mc_embed_signup input[type="text"]:focus, #mc_embed_signup input[type="email"]:focus {
+
+newsletter.css
+11: warning at line 22, col 44
+Don't use IDs in selectors.
+#mc_embed_signup input[type="text"]:focus, #mc_embed_signup input[type="email"]:focus {
+
+newsletter.css
+12: warning at line 25, col 1
+Don't use IDs in selectors.
+#mc_embed_signup input[type="text"]:hover, #mc_embed_signup input[type="email"]:hover {
+
+newsletter.css
+13: warning at line 25, col 44
+Don't use IDs in selectors.
+#mc_embed_signup input[type="text"]:hover, #mc_embed_signup input[type="email"]:hover {
+
+newsletter.css
+14: warning at line 28, col 1
+Don't use IDs in selectors.
+#mc_embed_signup .button {
+
+newsletter.css
+15: warning at line 28, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup .button {
+
+newsletter.css
+16: warning at line 39, col 1
+Don't use IDs in selectors.
+#mc_embed_signup .small-meta {
+
+newsletter.css
+17: warning at line 42, col 1
+Don't use IDs in selectors.
+#mc_embed_signup .clear {
+
+newsletter.css
+18: warning at line 46, col 1
+Don't use IDs in selectors.
+#mc_embed_signup label {
+
+newsletter.css
+19: warning at line 46, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup label {
+
+newsletter.css
+20: warning at line 52, col 1
+Don't use IDs in selectors.
+#mc_embed_signup input.email {
+
+newsletter.css
+21: warning at line 52, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup input.email {
+
+newsletter.css
+22: warning at line 52, col 18
+Element (input.email) is overqualified, just use .email without element name.
+#mc_embed_signup input.email {
+
+newsletter.css
+23: warning at line 58, col 1
+2 IDs in the selector, really?
+#mc_embed_signup div#mce-responses {
+
+newsletter.css
+24: warning at line 58, col 18
+Element (div#mce-responses) is overqualified, just use #mce-responses without element name.
+#mc_embed_signup div#mce-responses {
+
+newsletter.css
+25: warning at line 58, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup div#mce-responses {
+
+newsletter.css
+26: warning at line 61, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 0em .5em 0em .5em;
+
+newsletter.css
+27: warning at line 61, col 12
+Values of 0 shouldn't have units specified.
+  padding: 0em .5em 0em .5em;
+
+newsletter.css
+28: warning at line 61, col 21
+Values of 0 shouldn't have units specified.
+  padding: 0em .5em 0em .5em;
+
+newsletter.css
+29: warning at line 67, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup div.response {
+
+newsletter.css
+30: warning at line 67, col 1
+Don't use IDs in selectors.
+#mc_embed_signup div.response {
+
+newsletter.css
+31: warning at line 69, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 1em .5em .5em 0;
+
+newsletter.css
+32: warning at line 76, col 1
+2 IDs in the selector, really?
+#mc_embed_signup #mce-error-response {
+
+newsletter.css
+33: warning at line 79, col 1
+2 IDs in the selector, really?
+#mc_embed_signup #mce-success-response {
+
+newsletter.css
+34: warning at line 83, col 1
+Don't use IDs in selectors.
+#mce-success-response.response {
+
+newsletter.css
+35: warning at line 84, col 3
+Use of !important
+  display: none !important;
+
+newsletter.css
+36: warning at line 87, col 1
+Don't use IDs in selectors.
+#mce-error-response.response {
+
+newsletter.css
+37: warning at line 87, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mce-error-response.response {
+
+newsletter.css
+38: warning at line 88, col 3
+Use of !important
+  color: #ecc96f !important;
+
+newsletter.css
+39: warning at line 89, col 3
+Use of !important
+  padding: 1rem 0 !important;
+
+newsletter.css
+40: warning at line 90, col 3
+Use of !important
+  margin: 2rem 1rem !important;
+
+newsletter.css
+41: warning at line 91, col 3
+Use of !important
+  width: 100% !important;
+
+newsletter.css
+42: warning at line 94, col 1
+Don't use IDs in selectors.
+#mce-error-response.response > a {
+
+newsletter.css
+43: warning at line 95, col 3
+Use of !important
+  display: none !important;
+
+newsletter.css
+44: warning at line 98, col 1
+Rule doesn't have all its properties in alphabetical order.
+#mc_embed_signup label.error {
+
+newsletter.css
+45: warning at line 98, col 18
+Element (label.error) is overqualified, just use .error without element name.
+#mc_embed_signup label.error {
+
+newsletter.css
+46: warning at line 98, col 1
+Don't use IDs in selectors.
+#mc_embed_signup label.error {
+
+newsletter.css
+47: warning at line 106, col 3
+Rule is empty.
+  .mc-field-group {
+
+newsletter.css
+48: error at line 107, col 20
+Unexpected token ':' at line 107, col 20.
+    margin-bottom: : .5rem;
+
+newsletter.css
+49: warning at line 110, col 1
+Rule doesn't have all its properties in alphabetical order.
+body {
+
+newsletter.css
+50: warning at line 115, col 3
+Expected (flex-start | flex-end | center | space-between | space-around) but found 'left'.
+  justify-content: left;
+
+newsletter.css
+51: warning at line 123, col 1
+Rule doesn't have all its properties in alphabetical order.
+main {
+
+newsletter.css
+52: warning at line 133, col 3
+Rule doesn't have all its properties in alphabetical order.
+  #mc_embed_signup_scroll #form-headline {
+
+newsletter.css
+53: warning at line 133, col 3
+2 IDs in the selector, really?
+  #mc_embed_signup_scroll #form-headline {
+
+newsletter.css
+54: warning at line 163, col 3
+Rule doesn't have all its properties in alphabetical order.
+  .lists li {
+
+newsletter.css
+55: warning at line 172, col 5
+Rule doesn't have all its properties in alphabetical order.
+    .lists li:before {
+
+newsletter.css
+56: warning at line 179, col 7
+Standard property 'border-radius' should come after vendor-prefixed property '-moz-border-radius'.
+      -moz-border-radius: 8px;
+
+newsletter.css
+57: warning at line 180, col 7
+Standard property 'border-radius' should come after vendor-prefixed property '-webkit-border-radius'.
+      -webkit-border-radius: 8px;
+
+newsletter.css
+58: warning at line 183, col 5
+Rule doesn't have all its properties in alphabetical order.
+    .lists li:after {
+
+newsletter.css
+59: warning at line 190, col 7
+Using height with border can sometimes make elements larger than you expect.
+      border: solid #fff;
+
+newsletter.css
+60: warning at line 190, col 7
+Using width with border can sometimes make elements larger than you expect.
+      border: solid #fff;
+
+newsletter.css
+61: warning at line 192, col 7
+The property -ms-transform is compatible with -webkit-transform and should be included as well.
+      -webkit-transform: rotate(45deg);
+
+newsletter.css
+62: warning at line 197, col 1
+Rule doesn't have all its properties in alphabetical order.
+form {
+
+newsletter.css
+63: warning at line 201, col 1
+Rule doesn't have all its properties in alphabetical order.
+label {
+
+newsletter.css
+64: warning at line 205, col 1
+Rule doesn't have all its properties in alphabetical order.
+input {
+
+newsletter.css
+65: warning at line 207, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: .5rem;
+
+newsletter.css
+66: warning at line 211, col 1
+Rule doesn't have all its properties in alphabetical order.
+.button {
+
+newsletter.css
+67: warning at line 216, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 1rem;
+
+newsletter.css
+68: warning at line 220, col 1
+Rule doesn't have all its properties in alphabetical order.
+.btn {
+
+newsletter.css
+69: warning at line 228, col 3
+Using width with padding can sometimes make elements larger than you expect.
+  padding: 1rem;
+
+newsletter.css
+70: warning at line 233, col 1
+Rule doesn't have all its properties in alphabetical order.
+.button:hover, .btn:hover {
+
+newsletter.css
+71: warning at line 238, col 1
+Rule doesn't have all its properties in alphabetical order.
+a {
+
+newsletter.css
+72: warning at line 255, col 3
+Rule doesn't have all its properties in alphabetical order.
+  .lists li {
+
+newsletter.css
+73: warning at line 263, col 5
+Rule doesn't have all its properties in alphabetical order.
+    .lists li:before {
+
+newsletter.css
+74: warning at line 270, col 7
+Standard property 'border-radius' should come after vendor-prefixed property '-moz-border-radius'.
+      -moz-border-radius: 8px;
+
+newsletter.css
+75: warning at line 271, col 7
+Standard property 'border-radius' should come after vendor-prefixed property '-webkit-border-radius'.
+      -webkit-border-radius: 8px; }
+
+newsletter.css
+76: warning at line 272, col 5
+Rule doesn't have all its properties in alphabetical order.
+    .lists li:after {
+
+newsletter.css
+77: warning at line 279, col 7
+Using width with border can sometimes make elements larger than you expect.
+      border: solid #fff;
+
+newsletter.css
+78: warning at line 279, col 7
+Using height with border can sometimes make elements larger than you expect.
+      border: solid #fff;
+
+newsletter.css
+79: warning at line 281, col 7
+The property -ms-transform is compatible with -webkit-transform and should be included as well.
+      -webkit-transform: rotate(45deg);
+
+newsletter.css
+80: warning at line 286, col 3
+Rule doesn't have all its properties in alphabetical order.
+  form {
+
+newsletter.css
+81: warning at line 291, col 3
+Rule doesn't have all its properties in alphabetical order.
+  input {
+
+newsletter.css
+82: warning at line 293, col 5
+Using width with padding can sometimes make elements larger than you expect.
+    padding: .5rem;
+
+newsletter.css
+83: warning at line 297, col 3
+Rule doesn't have all its properties in alphabetical order.
+  .btn {
+
+newsletter.css
+84: warning at line 302, col 3
+Rule doesn't have all its properties in alphabetical order.
+  body {
+
+newsletter.css
+85: warning at line 309, col 3
+Rule doesn't have all its properties in alphabetical order.
+  .card {
+
+newsletter.css
+86: warning at line 328, col 3
+Don't use IDs in selectors.
+  div.mc-field-group #form-headline {
+
+newsletter.css
+87: warning at line 328, col 3
+Rule doesn't have all its properties in alphabetical order.
+  div.mc-field-group #form-headline {
+
+newsletter.css
+88: warning at line 348, col 3
+Rule doesn't have all its properties in alphabetical order.
+  body {
+
+newsletter.css
+89: warning at line 349, col 5
+Background image '../assets/harry-bg-large-black.jpg' was used multiple times, first declared at line 304, col 5.
+    background-image: url("../assets/harry-bg-large-black.jpg");
+
+newsletter.css
+90: warning
+Too many font-size declarations (14), abstraction needed.

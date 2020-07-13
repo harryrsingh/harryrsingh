@@ -1,0 +1,118 @@
+// breakpoints
+
+$XS:    480px;
+$S:     768px;
+$M:     1024px;
+$L:     1600px;
+
+// media queries
+
+@mixin MQ($canvas) {
+  @if $canvas == XS {
+    @media only screen and (min-width: $XS) { @content; }
+  }
+  @if $canvas == S {
+   @media only screen and (min-width: $S) { @content; }
+  }
+  @else if $canvas == M {
+   @media only screen and (min-width: $M) { @content; }
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $L) { @content; }
+  }
+}
+
+// Main Styling
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    background-image: url('../assets/sky-light.png');
+}
+
+.hero {
+  background-image: url('../assets/sky-black.png');
+  max-height: 35vh;
+  text-align: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  img {
+    height: 35vh;
+  }
+
+  .greetings {
+    text-align: center;
+    padding: 0 4rem;
+
+    h1 {
+      font-size: 3rem;
+      color: #fff;
+      font-weight: 900;
+    }
+
+    p {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+  }
+}
+
+strong {
+  color: #459aee;
+  font-weight: 500;
+}
+
+.main-body {
+  height: 65vh;
+  text-align: left;
+  display: grid;
+  grid-template-columns: .75fr 1fr;
+  align-items: baseline;
+
+  .image-container {
+    align-self: end;
+  }
+
+  .links {
+    padding: 2rem;
+
+    ul {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    p, li, strong {
+      font-size: 1.5rem;
+    }
+
+    li {
+      list-style: none;
+      margin: .5rem 0;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 1.5rem;
+      transform: scale(2);
+     -ms-transform: scale(2);
+     -webkit-transform: scale(2);
+     -o-transform: scale(2);
+     -moz-transform: scale(2);
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+      transition: all .2s;
+
+      &:hover {
+        border-bottom: 1px solid #459aee;
+        transition: all .5s;
+      }
+    }
+  }
+}
